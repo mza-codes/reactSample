@@ -1,0 +1,74 @@
+.border{
+    border: 1px soild white;
+    border-radius: 1rem;
+    max-width: 20rem;
+}
+.font01 {
+    font-family: 'Times New Roman', Times, serif;
+}
+.text-color {
+    /* color : var(--text-main); */
+    color: #d3bcbc;
+}
+.m-custom{
+    margin: 2rem;
+}
+.times{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* --------theme controls------- */
+:root {
+    /* background: linear-gradient(var(--gd1),var(--gd2)); */
+    text-align: center;
+    background: rgb(59, 59, 59);
+    color: #ffffff;
+    --gd1:rgb(255, 255, 255);
+    --gd2:rgb(205, 85, 0);
+    --text-main: #870000;
+    --badge-cart: rgb(5, 113, 1);
+    --badge-text: white;
+    --badge-order: rgb(187, 2, 2);
+    --badge-wishlist: rgb(59, 96, 0);
+    --text-secondary: rgb(255, 255, 255);
+    --gradient-2: rgb(255, 132, 0);
+    --gradient-1: rgb(255, 162, 162);
+    --bg-main:beige;
+}
+.light {
+    
+    --text-main: #870000;
+    --badge-cart: rgb(5, 113, 1);
+    --badge-text: white;
+    --badge-order: rgb(187, 2, 2);
+    --badge-wishlist: rgb(59, 96, 0);
+    --text-secondary: rgb(255, 255, 255);
+    --gradient-2: rgb(255, 132, 0);
+    --gradient-1: rgb(255, 162, 162);
+    --bg-main:beige;
+}
+
+.dark {
+    text-align: center;
+    background: rgb(59, 59, 59);
+    color: #ffffff;
+    --gd1:rgb(255, 255, 255);
+    --gd2:rgb(205, 85, 0);
+    --text-main: #ffffff;
+    --badge-cart: rgb(5, 113, 1);
+    --badge-text: white;
+    --badge-order: rgb(187, 2, 2);
+    --badge-wishlist: rgb(255, 145, 0);
+    --text-secondary: black;
+    --gradient-1: rgb(0, 145, 135);
+    --gradient-2: rgb(17, 16, 16);
+    --bg-main:rgb(63, 63, 63);
+    --tile-color1:rgb(58, 0, 0);
+    --tile-color2:rgb(111, 0, 39);
+}
+
+.page {
+    background-color: var(--main-bg);
+    align-items: center;
+}
+/* --------theme control close--------- */
